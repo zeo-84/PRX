@@ -1,0 +1,16 @@
+/* Dark theme is default */
+/* Light theme overrides can be added here */
+
+body.light-theme {
+    --bg-dark: #f8fafc;
+    --bg-card: rgba(0, 0, 0, 0.03);
+    --bg-card-hover: rgba(0, 0, 0, 0.06);
+    --bg-input: rgba(0, 0, 0, 0.04);
+    --glass-border: rgba(0, 0, 0, 0.08);
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+}
+
+body.light-theme .orb { opacity: 0.15; }
+body.light-theme .form-group select option { background: white; color: #1e293b; }
